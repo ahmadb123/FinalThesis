@@ -76,14 +76,13 @@ To get a local copy up and running, follow these steps.
   Backend API: http://localhost:8080/api
   Frontend: http://localhost:3000
 
-
-Contact : 
+## Contact
 Author: Ahmad Bishara
 Email: abishara@mail.endicott.edu
 GitHub: ahmadb123
 
 
-Acknowledgments: 
+## Acknowledgments: 
   Spring Boot
   MongoDB
   React.js
