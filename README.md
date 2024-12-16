@@ -68,10 +68,10 @@ To get a local copy up and running, follow these steps.
 
   ## Frontend setup - 
   cd ~/Finalthesis/frontend
-  ## install dependency - 
-  ## npm install
-  ## start frontend - 
-  ## npm start 
+    install dependency - 
+    npm install
+  ## start frontend -> 
+    npm start 
 
   
 ## Usage: 
@@ -80,17 +80,17 @@ To get a local copy up and running, follow these steps.
 
 
 ## Contact
-## Author: Ahmad Bishara
-## Email: abishara@mail.endicott.edu
-## GitHub: ahmadb123
+ Author: Ahmad Bishara
+ Email: abishara@mail.endicott.edu
+ GitHub: ahmadb123
 
 
 ## Acknowledgments: 
-  ## Spring Boot
-  ## MongoDB
-  ## React.js
-  ## JWT
-  ## Gradle
+   Spring Boot
+   MongoDB
+   React.js
+   JWT
+   Gradle
 
 
 
