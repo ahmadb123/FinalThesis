@@ -74,9 +74,10 @@ To get a local copy up and running, follow these steps.
     npm start 
 
   
-## Usage: 
-## Access the backend API: http://localhost:8080/api
-## Access the frontend: http://localhost:3000
+## Usage
+- **Access the Backend API**: [http://localhost:8080/api](http://localhost:8080/api)
+- **Access the Frontend**: [http://localhost:3000](http://localhost:3000)
+
 
 
 ## Contact
