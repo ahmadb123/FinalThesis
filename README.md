@@ -80,9 +80,9 @@ To get a local copy up and running, follow these steps.
 
 
 ## Contact
- Author: Ahmad Bishara
- Email: abishara@mail.endicott.edu
- GitHub: ahmadb123
+- **Author**: Ahmad Bishara  
+- **Email**: [abishara@mail.endicott.edu](mailto:abishara@mail.endicott.edu)  
+- **GitHub**: [ahmadb123](https://github.com/ahmadb123)
 
 
 ## Acknowledgments: 
