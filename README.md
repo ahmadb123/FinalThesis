@@ -54,40 +54,43 @@ To get a local copy up and running, follow these steps.
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/ahmadb123/finalthesis.git
-  Backend navigation - 
+  ## Backend navigation ->
   cd ~/finalthesis/backend
   Configure environment-
   spring.data.mongodb.uri=mongodb://localhost:27017/ecommerceApp
   jwt.secret=your_jwt_secret_key
   jwt.expiration=86400000
-  build the backend - 
+  
+  ## Build the backend - 
   ./gradlew build
   run the application-
   java -jar target/<your-jar-file>.jar
 
-  Frontend setup - 
+  ## Frontend setup - 
   cd ~/Finalthesis/frontend
-  install dependency - 
-  npm install
-  start frontend - 
-  npm start 
+  ## install dependency - 
+  ## npm install
+  ## start frontend - 
+  ## npm start 
 
-  Access application- 
-  Backend API: http://localhost:8080/api
-  Frontend: http://localhost:3000
+  
+## Usage: 
+## Access the backend API: http://localhost:8080/api
+## Access the frontend: http://localhost:3000
+
 
 ## Contact
-Author: Ahmad Bishara
-Email: abishara@mail.endicott.edu
-GitHub: ahmadb123
+## Author: Ahmad Bishara
+## Email: abishara@mail.endicott.edu
+## GitHub: ahmadb123
 
 
 ## Acknowledgments: 
-  Spring Boot
-  MongoDB
-  React.js
-  JWT
-  Gradle
+  ## Spring Boot
+  ## MongoDB
+  ## React.js
+  ## JWT
+  ## Gradle
 
 
 
