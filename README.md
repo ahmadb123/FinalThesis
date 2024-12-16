@@ -86,13 +86,12 @@ To get a local copy up and running, follow these steps.
 - **GitHub**: [ahmadb123](https://github.com/ahmadb123)
 
 
-## Acknowledgments: 
-   Spring Boot
-   MongoDB
-   React.js
-   JWT
-   Gradle
-
+## Acknowledgments
+- [Spring Boot](https://spring.io/projects/spring-boot)
+- [MongoDB](https://www.mongodb.com/)
+- [React.js](https://reactjs.org/)
+- [JWT](https://jwt.io/)
+- [Gradle](https://gradle.org/)
 
 
 
