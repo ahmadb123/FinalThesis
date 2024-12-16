@@ -61,16 +61,16 @@ To get a local copy up and running, follow these steps.
   jwt.secret=your_jwt_secret_key
   jwt.expiration=86400000
   
-  ## Build the backend - 
+  ## Build the backend 
   ./gradlew build
   run the application-
   java -jar target/<your-jar-file>.jar
 
-  ## Frontend setup - 
+  ## Frontend setup 
   cd ~/Finalthesis/frontend
     install dependency - 
     npm install
-  ## start frontend -> 
+  ## start frontend 
     npm start 
 
   
