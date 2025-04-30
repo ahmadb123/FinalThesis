@@ -1,54 +1,70 @@
-# GamerHub
-### A unified platform for gamers to connect, share, and stay up-to-date with the latest in gaming.
+# GamerHub  
+A unified platform for gamers to connect, share, and stay up-to-date with the latest in gaming.
+
+---
 
 ## Table of Contents
-- [About The Project](#about-the-project)
-- [Key Features](#Key Features)
-- [Tech Stack](#Tech Stack)
-- [Getting Started](#Getting Started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-- [Usage](#contact)
-- [Configuration](#Configuration)
-- [Directory Structure](#Directory Structure)
-- [Contact](#Contact)
+- [About The Project](#about-the-project)  
+- [Features](#features)  
+- [Tech Stack](#tech-stack)  
+- [Getting Started](#getting-started)  
+  - [Prerequisites](#prerequisites)  
+  - [Installation](#installation)  
+- [Usage](#usage)  
+- [Configuration](#configuration)  
+- [Directory Structure](#directory-structure)  
+- [Contact](#contact)  
+- [Acknowledgments](#acknowledgments)  
 
 ---
 
 ## About The Project
-GamerHub brings together your favorite gaming platforms—Xbox, PlayStation, Steam, and more—into one place.
+GamerHub brings together your favorite gaming platforms—Xbox, PlayStation, Steam, Discord, and more—into one place.  
 Create or join chats and groups, share news and game info, plan events, and discover up-to-date trailers and reviews.
 
+---
 
-### Key Features
-- ** Gamertag-Based Login: Authenticate via Xbox, PlayStation, Steam, or a custom gamertag. Link multiple accounts under one unified profile.
-- ** Chats & Groups Topic-based chat rooms (e.g., “Elden Ring Players”). Group roles (admins, moderators) and threaded discussions.
-- ** Centralized News Feed Aggregates updates from Xbox News, PlayStation Blog, Steam News, etc. Filter by platform, genre, or personalized preferences.
-- ** Game Info & Trailers Searchable database powered by IGDB for release dates, trailers, reviews. One-click shareable game pages in chat.
-- ** Social & Community Real-time notifications for mentions and replies. Badges and gamification for top contributors. In-chat event scheduling and tournament planning.
-
+## Features
+- **Gamertag-Based Login**  
+  Authenticate via Xbox, PlayStation, Steam, or a custom gamertag. Link multiple accounts under one profile.  
+- **Chats & Groups**  
+  Topic-based chat rooms (e.g., *Elden Ring Players*) with role management (admins, moderators) and threaded discussions.  
+- **Centralized News Feed**  
+  Aggregates updates from Xbox News, PlayStation Blog, Steam News, etc., with filters for platform, genre, and personal preferences.  
+- **Game Info & Trailers**  
+  Searchable database powered by IGDB for release dates, trailers, and reviews. Shareable game pages directly in chat.  
+- **Community & Gamification**  
+  Real-time notifications, badges for top contributors, in-chat event scheduling, and tournament planning.
 
 ---
 
 ## Tech Stack
-  - Frontend: React.js, Tailwind CSS
-  - Backend: Java 17, Spring Boot
-  - Database: MySQL
-  - [WebSockets: STOMP over SockJS for real-time messaging
-  - APIs & Authentication: IGDB for game metadata Steam OpenID, Xbox OAuth2, Discord OAuth2 for user authentication YouTube API for trailers and videos Platform-specific news endpoints (Xbox News, PlayStation Blog, Steam News)
+- **Frontend**: React.js, Tailwind CSS  
+- **Backend**: Java 17, Spring Boot  
+- **Database**: MySQL  
+- **Real-Time**: STOMP over SockJS (WebSockets)  
+- **APIs & Authentication**:  
+  - IGDB for game metadata  
+  - Steam OpenID, Xbox OAuth2, Discord OAuth2  
+  - YouTube API for trailers  
+  - Platform-specific news endpoints  
 
 ---
-
-
 
 ## Getting Started
 
 ### Prerequisites
-1. ** Node.js (v16+) & npm
-2. **Java 17+ & Maven
-3. **MySQL (running locally or remotely)
+- Node.js v16+ & npm  
+- Java 17+ & Maven  
+- MySQL (local or remote)
 
 ### Installation
+
+1. **Clone the repo**  
+   ```bash
+   git clone https://github.com/ahmadb123/GamerHub.git
+   cd GamerHub
+
 
 ##Installation
 1. ## git clone https://github.com/your-org/GamerHub.git  cd GamerHub
