@@ -65,22 +65,17 @@ Create or join chats and groups, share news and game info, plan events, and disc
    git clone https://github.com/ahmadb123/GamerHub.git
    cd GamerHub
    cd backend
-  # Edit src/main/resources/application.properties (see Configuration below)
-  mvn clean package
-  mvn spring-boot:run
-
-
-##Installation
-1. ## git clone https://github.com/your-org/GamerHub.git  cd GamerHub
-2. ## Backend Setup cd backend  
-    # configure src/main/resources/application.properties (see below)  
-    mvn clean package  
-    mvn spring-boot:run  
-    # runs on http://localhost:8080
-3. ## Frontend setup cd ../frontend  
-      npm install  
-      npm start  
-      # runs on http://localhost:3000  
+    Edit src/main/resources/application.properties (see Configuration below)
+    mvn clean package
+    mvn spring-boot:run
+   Backend runs on http://localhost:8080
+2. ##FrontEnd
+   ```bash
+    cd ../frontend
+    npm install
+    npm start
+    Frontend runs on http://localhost:3000
+ 
 
   
 ## Usage
@@ -90,32 +85,36 @@ Create or join chats and groups, share news and game info, plan events, and disc
 - ##Search for games, view trailers, and discuss in real time.
 
 ##Configuration
-- ##In backend/src/main/resources/application.properties, set MySQL connection and JWT secret:
-- ## spring.datasource.url=jdbc:mysql://localhost:3306/gamerhub
-  spring.datasource.username=YOUR_DB_USER
-  spring.datasource.password=YOUR_DB_PASS
-  spring.jpa.hibernate.ddl-auto=update
+      ```bash
 
-  jwt.secret=your_jwt_secret_key
-  jwt.expiration=86400000
+      Database
+      spring.datasource.url=jdbc:mysql://localhost:3306/gamerhub
+      spring.datasource.username=YOUR_DB_USER
+      spring.datasource.password=YOUR_DB_PASS
+      spring.jpa.hibernate.ddl-auto=update
+    
 
-  ## Directory Structure
-  - ## GamerHub/
-      ├── backend/               # Spring Boot service
-      │   ├── src/
-      │   │   ├── main/
-      │   │   │   ├── java/...   # controllers, services, models, repos
-      │   │   │   └── resources/
-      │   │   │       └── application.properties
-      │   └── pom.xml
-      └── frontend/              # React application
-          ├── public/
-          ├── src/
-          │   ├── components/
-          │   ├── service/
-          │   ├── App.jsx
-          │   └── index.jsx
-          └── package.json
+    # JWT
+    jwt.secret=your_jwt_secret_key
+    jwt.expiration=86400000
+
+    Directory Structure
+    - ## GamerHub/
+        ├── backend/               # Spring Boot service
+        │   ├── src/
+        │   │   ├── main/
+        │   │   │   ├── java/...   # controllers, services, models, repos
+        │   │   │   └── resources/
+        │   │   │       └── application.properties
+        │   └── pom.xml
+        └── frontend/              # React application
+            ├── public/
+            ├── src/
+            │   ├── components/
+            │   ├── service/
+            │   ├── App.jsx
+            │   └── index.jsx
+            └── package.json
 
 
 ## Contact
