@@ -124,7 +124,7 @@ Create or join chats and groups, share news and game info, plan events, and disc
 
 ## Acknowledgments
 - [Spring Boot](https://spring.io/projects/spring-boot)
-- [MySQL]([https://www.mongodb.com/](https://www.mysql.com/))
+- [MySQL]([https://www.mongodb.com/](https://www.mysql.com/)
 - [React.js](https://reactjs.org/)
 - [JWT](https://jwt.io/)
 - [Gradle](https://gradle.org/)
