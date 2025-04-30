@@ -64,6 +64,10 @@ Create or join chats and groups, share news and game info, plan events, and disc
    ```bash
    git clone https://github.com/ahmadb123/GamerHub.git
    cd GamerHub
+   cd backend
+  # Edit src/main/resources/application.properties (see Configuration below)
+  mvn clean package
+  mvn spring-boot:run
 
 
 ##Installation
