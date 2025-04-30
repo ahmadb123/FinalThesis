@@ -85,7 +85,6 @@ Create or join chats and groups, share news and game info, plan events, and disc
 - ##Search for games, view trailers, and discuss in real time.
 
 ##Configuration
-      ```bash
 
       Database
       spring.datasource.url=jdbc:mysql://localhost:3306/gamerhub
@@ -125,7 +124,7 @@ Create or join chats and groups, share news and game info, plan events, and disc
 
 ## Acknowledgments
 - [Spring Boot](https://spring.io/projects/spring-boot)
-- [MongoDB](https://www.mongodb.com/)
+- [MySQL]([https://www.mongodb.com/](https://www.mysql.com/))
 - [React.js](https://reactjs.org/)
 - [JWT](https://jwt.io/)
 - [Gradle](https://gradle.org/)
